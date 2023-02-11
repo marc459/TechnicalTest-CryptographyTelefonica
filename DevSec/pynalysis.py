@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import ttk
 import psutil
-import GPUtil
 
 root = Tk();
 
@@ -15,6 +14,14 @@ frm = ttk.Frame(root, padding=10)
 frm.grid()
 
 ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
+
+#Create a canvas object
+canvas= Canvas(win, width= 1000, height= 750, bg="SpringGreen2")
+
+#Add a text in Canvas
+canvas.create_text(300, 50, text="HELLO WORLD", fill="black", font=('Helvetica 15 bold'))
+canvas.pack()
+
 ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
 
 # Testing the psutil library for both CPU and RAM performance details
