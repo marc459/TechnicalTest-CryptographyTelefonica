@@ -1,13 +1,10 @@
 from tkinter import *
 import signal
-from threading import Thread
 import datetime
 from tkinter import ttk
 import tkinter as tk
 import psutil
-import numpy as np
 import re
-
 import os
 
 ## APP CONFIG
@@ -58,7 +55,6 @@ def fullScan(processes):
         except:
             pass
         try:
-            print(processes[i].connections())
             if processes[i].connections().index('ESTABLISHED'):
                 processArray.append(Process(processes[i].name(),True, []))
         except:
