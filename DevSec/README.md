@@ -13,7 +13,7 @@ Una herramienta de monitoreo de redes sociales: una aplicación que monitoree la
 
 Un script para la búsqueda de información sensibles: un script que busque y recopile información sensible en la red, como contraseñas, datos personales, información confidencial de empresas, etc.
 
-## Detecciones python
+##  python
 
 Con Python, puedes detectar una amplia variedad de amenazas de ciberseguridad, incluyendo:
 
@@ -26,3 +26,14 @@ Malware: puedes desarrollar un script que analice archivos y detecte posibles ma
 Vulnerabilidades de seguridad en aplicaciones web: puedes utilizar herramientas de escaneo de vulnerabilidades, como OWASP ZAP, para detectar posibles vulnerabilidades en aplicaciones web.
 
 Abuso de recursos del sistema: puedes crear scripts que monitoreen el uso de los recursos del sistema y detecten posibles abusos.
+
+
+## Project Idea -- HealthPyProcess --
+
+Aplicacion que detecta '*Abuso de recursos del sistema*' que de analisis en la maquina local procesos que saturan la memoria y la cpu, su nombre y guardando un registro de los procesos que más consumen.
+ - Gráficas en vivo de uso de cpu y memoria ram.
+ - Procesos en uso más pesados.
+ - Reporte del tráfico en la red de cada proceso.
+ - Identificación de procesos maliciosos. (Unknown file signature)
+
+
